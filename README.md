@@ -11,3 +11,8 @@
 
 	[키 페어 생성하기](https://github.com/daldalhada/bigdata/blob/main/list/keypair/1.keypair.md).
 
+
+2. AWS EMR 클러스터 생성한다.
+
+	[EMR 클러스터 생성하기](https://github.com/daldalhada/bigdata/blob/main/list/emr/emr.md).
+

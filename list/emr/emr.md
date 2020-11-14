@@ -7,7 +7,7 @@
 
 <br><br>
 
-![EMR]](https://github.com/daldalhada/bigdata/blob/main/images/emr/emr(1).png)
+![EMR](https://github.com/daldalhada/bigdata/blob/main/images/emr/emr(1).png)
 
 <br><br>
 
@@ -15,7 +15,7 @@
 
 <br><br>
 
-![EMR]](https://github.com/daldalhada/bigdata/blob/main/images/emr/emr(2).png)
+![EMR](https://github.com/daldalhada/bigdata/blob/main/images/emr/emr(2).png)
 
 <br><br>
 
@@ -23,7 +23,7 @@
 
 <br><br>
 
-![EMR]](https://github.com/daldalhada/bigdata/blob/main/images/emr/emr(3).png)
+![EMR](https://github.com/daldalhada/bigdata/blob/main/images/emr/emr(3).png)
 
 <br><br>
 
@@ -31,7 +31,7 @@
 
 <br><br>
 
-![EMR]](https://github.com/daldalhada/bigdata/blob/main/images/emr/emr(4).png)
+![EMR](https://github.com/daldalhada/bigdata/blob/main/images/emr/emr(4).png)
 
 <br><br>
 
@@ -39,7 +39,7 @@
 
 <br><br>
 
-![EMR]](https://github.com/daldalhada/bigdata/blob/main/images/emr/emr(5).png)
+![EMR](https://github.com/daldalhada/bigdata/blob/main/images/emr/emr(5).png)
 
 <br><br>
 
@@ -47,7 +47,7 @@
 
 <br><br>
 
-![EMR]](https://github.com/daldalhada/bigdata/blob/main/images/emr/emr(6).png)
+![EMR](https://github.com/daldalhada/bigdata/blob/main/images/emr/emr(6).png)
 
 <br><br>
 
@@ -55,7 +55,7 @@
 
 <br><br>
 
-![EMR]](https://github.com/daldalhada/bigdata/blob/main/images/emr/emr(7).png)
+![EMR](https://github.com/daldalhada/bigdata/blob/main/images/emr/emr(7).png)
 
 <br><br>
 
@@ -63,15 +63,15 @@
 
 <br><br>
 
-![EMR]](https://github.com/daldalhada/bigdata/blob/main/images/emr/emr(8-1).png)
+![EMR](https://github.com/daldalhada/bigdata/blob/main/images/emr/emr(8-1).png)
 
 <br><br>
 
-![EMR]](https://github.com/daldalhada/bigdata/blob/main/images/emr/emr(8-2).png)
+![EMR](https://github.com/daldalhada/bigdata/blob/main/images/emr/emr(8-2).png)
 
 <br><br>
 
-![EMR]](https://github.com/daldalhada/bigdata/blob/main/images/emr/emr(8-3).png)
+![EMR](https://github.com/daldalhada/bigdata/blob/main/images/emr/emr(8-3).png)
 
 <br><br>
 
@@ -80,6 +80,6 @@
 
 <br><br>
 
-![EMR]](https://github.com/daldalhada/bigdata/blob/main/images/emr/emr(9).png)
+![EMR](https://github.com/daldalhada/bigdata/blob/main/images/emr/emr(9).png)
 
 <br><br>
