@@ -48,7 +48,7 @@
     - 다양한 API를 지원
     - Spark Core의 API를 활용한 다양한 응용이 개발 됨
 
-![Spark Core](https://github.com/daldalhada/bigdata/blob/main/list/spark/spark(1).png).
+![Spark Core](https://github.com/daldalhada/bigdata/blob/main/images/spark/spark(1).png).
 
 
 <br><br>
@@ -62,7 +62,7 @@
     - 업로드 완료 후 업로드 된 파일 경로 확인
       예) display(dbutils.fs.ls("파일 경로"))
 
-![Spark Core](https://github.com/daldalhada/bigdata/blob/main/list/spark/spark(2).png).
+![Spark](https://github.com/daldalhada/bigdata/blob/main/images/spark/spark(2).png).
 
 
 <br><br>
