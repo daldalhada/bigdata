@@ -65,7 +65,24 @@
 
 <br><br>
 
-<h2> 5. 스파크 핵심 개념 </h2>
+<h2> 5. 실습에 사용할 파일 업로드 하기 </h2>
+
+#### - Databricks 이용하기
+    - https://community.cloud.databricks.com
+    - 노트북에서 Upload Data 선택 후 파일을 업로드
+    - 업로드 완료 후 업로드 된 파일 경로 확인
+      예) display(dbutils.fs.ls("파일 경로"))
+
+![Spark](https://github.com/daldalhada/bigdata/blob/main/images/spark/spark(2).png).
+
+#### - 스파크 쉘에서 데이터 로드
+
+![Spark](https://github.com/daldalhada/bigdata/blob/main/images/spark/spark(3).png).
+
+<br><br>
+
+
+<h2> 6. 스파크 핵심 개념 </h2>
 
 #### - Resilient Distributed Datasets(RDD)
     - 여러 노드에 걸쳐서 데이터를 분산 해주고 분산된 데이터에 대해서 병렬로 사용자 지정 함수를 실행하게 해주는 클래스(HDFS의 블락처럼 파일을 쪼갠 후 분산 저장 및 할당 해주는 기능을 기본으로 제공)
@@ -131,24 +148,10 @@
 
 ![Spark Core](https://github.com/daldalhada/bigdata/blob/main/images/spark/spark(9).png).
 
+    - parallelize:  driver에 있는 객체, 로컬 객체를 RDD화 해서 분산 시켜줌, 즉, 굳이 파일 시스템을 involve 하지 않게 편하게 사용 
+
 
 <br><br>
 
-
-<h2> 6. 실습에 사용할 파일 업로드 하기 </h2>
-
-#### - Databricks 이용하기
-    - https://community.cloud.databricks.com
-    - 노트북에서 Upload Data 선택 후 파일을 업로드
-    - 업로드 완료 후 업로드 된 파일 경로 확인
-      예) display(dbutils.fs.ls("파일 경로"))
-
-![Spark](https://github.com/daldalhada/bigdata/blob/main/images/spark/spark(2).png).
-
-#### - 스파크 쉘에서 데이터 로드
-
-![Spark](https://github.com/daldalhada/bigdata/blob/main/images/spark/spark(3).png).
-
-<br><br>
 
 
