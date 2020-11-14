@@ -48,13 +48,22 @@
     - 다양한 API를 지원
     - Spark Core의 API를 활용한 다양한 응용이 개발 됨
 
-[Spark Core](https://github.com/daldalhada/bigdata/blob/main/list/spark/spark(1).png).
+![Spark Core](https://github.com/daldalhada/bigdata/blob/main/list/spark/spark(1).png).
 
-#### - 다양한 데이터 저장소 지원
-    - HDFS, Local file system, S3, Databases 등
-#### - Interactive 쉘을 지원
-    - SparkShell: 스칼라 기반 쉘
-    - PySpark: 파이썬 기반 쉘
-    - sparkR: R기반 쉘
 
 <br><br>
+
+
+<h2> 5. 실습에 사용할 파일 업로드 하기 </h2>
+
+#### - Databricks 이용하기
+    - https://community.cloud.databricks.com
+    - 노트북에서 Upload Data 선택 후 파일을 업로드
+    - 업로드 완료 후 업로드 된 파일 경로 확인
+      예) display(dbutils.fs.ls("파일 경로"))
+
+![Spark Core](https://github.com/daldalhada/bigdata/blob/main/list/spark/spark(2).png).
+
+
+<br><br>
+
