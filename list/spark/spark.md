@@ -212,4 +212,58 @@
 ![Spark Core](https://github.com/daldalhada/bigdata/blob/main/images/spark/spark(13).png).
 
 
+#### - RDD actions - saveAsTextFile(Path)
+    - RDD의 결과물을 파일로 저장하는 API
+    - 결과물은 리듀스를 실행하는 워커 갯수(파티션)에 따라 별개의 파일로 생성
+    - 각각의 파티션은 Part-xxxxx 파일로 생성 됨
 
+
+![Spark Core](https://github.com/daldalhada/bigdata/blob/main/images/spark/spark(14).png).
+
+    - 위의 사진에서는 저장하는 작업이 병렬로 실행되어서 파티션이 2개 생김
+
+
+
+<h2> RDD partitions </h2>
+
+
+#### - RDD partitions
+    - 하둡 맵리듀스 프로그래밍에서 각 블락 별로 병렬 실행 됨
+    - Spark RDD에서도 유사한 개념이 적용 됨(HDFS의 블락은 RDD의 파티션에 대응 함)
+
+![Spark Core](https://github.com/daldalhada/bigdata/blob/main/images/spark/spark(15).png).
+
+
+#### - RDD Repartitions
+    - Repartition은 네트워크를 통한 많은 자원의 통신을 필요함
+    - coalesce(N) 메소드를 사용하면 데이터 전송을 최소화 하면서 파티션의 개수를 줄일 수 있음
+
+
+
+<h2> Spark 데이터 셔플 </h2>
+
+
+#### - 파티션간 데이터를 네트워크로 상호 전송 함
+    - reduceByKey, groupByKey, repartition
+    - Spark RDD에서도 유사한 개념이 적용 됨(HDFS의 블락은 RDD의 파티션에 대응 함)
+
+#### - 많은 자원 필요
+    - Disk I/O, (de)serialization, network I/O (all-to-all)
+    - 활용시 주의 필요
+
+
+#### - PiarRDDFunctions
+    - RDD에서의 Key-Value 쌍은 다양한 응용에 활용 됨
+    - key 별로 aggregation 또는 grouping을 가능하게 함
+    - <Key, Value> RDD를 활용한 API(reduceByKey, groupByKey, aggregationByKey 등)
+    - Scala의 Tuple2(Pir)를 활용하여 Key-Value 쌍 표현 가능
+
+![Spark Core](https://github.com/daldalhada/bigdata/blob/main/images/spark/spark(16).png).
+
+#### - keyValue pair RDDs를 활용한 Transformation
+    - groupByKey(): 주어진 <K, V>에 대해서 출력으로 <K, Iterable<V>>을 반환함
+    - reduceByKey(func): 주어진 <K, V>에 대해서 <K, V>를 반환 함, 입력으로 주어진 함수(func)를 입력 데이터인 (K, V)에서 <V, V>를 실행 함
+    - mapValues(func): Value들에 입력으로 주어진 func함수를 적용
+
+
+![Spark Core](https://github.com/daldalhada/bigdata/blob/main/images/spark/spark(17).png).
