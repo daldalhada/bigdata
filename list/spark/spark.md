@@ -267,3 +267,36 @@
 
 
 ![Spark Core](https://github.com/daldalhada/bigdata/blob/main/images/spark/spark(17).png).
+
+
+#### - keyValue pair RDDs functions
+    - keys(): Key-Value 쌍에서 key만을 반환
+    - values(): Key-Value 쌍에서 values만을 반환
+    - sortByKey(): Key를 기준으로 정렬 해줌
+
+
+![Spark Core](https://github.com/daldalhada/bigdata/blob/main/images/spark/spark(18).png).
+
+
+#### - 2개의 K-V 쌍에 대한 작업
+    - subtractByKey(other_rdd): othter_rdd에 존재하는 key값을 원본 RDD에서 삭제 함
+    - join(oter_rdd): 같은 Key값을 기준으로 하나의 RDD로 변환(innter join), 각 key값에 대해서 가능한 모든 value들의 조합을 만들어 냄(cartesian)
+    - cogroup(other_rdd): 같은 key값을 기준으로 하나의 RDD로 변환(outer join), 각 key값에 대해서 결과가 하나의 CompactBuffer로 반환 됨
+  
+    ※ CompactBuffer는 스칼라에서 새롭게 만든 효율적인 list임
+
+![Spark Core](https://github.com/daldalhada/bigdata/blob/main/images/spark/spark(19).png).
+
+
+
+#### - KeyValue Pair RDD를 활용한 Genre Counter
+
+![Spark Core](https://github.com/daldalhada/bigdata/blob/main/images/spark/spark(20).png).
+
+
+#### - Monte-Carlo 기법
+
+![Spark Core](https://github.com/daldalhada/bigdata/blob/main/images/spark/spark(21).png).
+
+![Spark Core](https://github.com/daldalhada/bigdata/blob/main/images/spark/spark(22).png).
+
