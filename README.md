@@ -22,11 +22,13 @@
 
 1. Scala 언어에 대해 학습한다.
 
-	[Scala 언어 학습](https://github.com/daldalhada/bigdata/blob/main/list/keypair/scala.md).
+	[Scala 언어 학습](https://github.com/daldalhada/bigdata/blob/main/list/scala/scala.md).
 
+
+<br><br>
 
 ## Spark 플랫폼
 
 1. Spark 플랫폼이 등장한 이유
 
-	[Scala 언어 학습](https://github.com/daldalhada/bigdata/blob/main/list/keypair/scala.md).
+	[Scala 언어 학습](https://github.com/daldalhada/bigdata/blob/main/list/spark/spark.md).
