@@ -16,10 +16,10 @@
 
 	[EMR 클러스터 생성하기](https://github.com/daldalhada/bigdata/blob/main/list/emr/emr.md).
 
-
+<br><br>
 
 ## Scala 언어 학습
 
 1. Scala 언어에 대해 학습한다.
 
-	[Scala 언어 학습]](https://github.com/daldalhada/bigdata/blob/main/list/keypair/scala.md).
+	[Scala 언어 학습](https://github.com/daldalhada/bigdata/blob/main/list/keypair/scala.md).
