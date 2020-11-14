@@ -122,6 +122,16 @@
 ![Spark Core](https://github.com/daldalhada/bigdata/blob/main/images/spark/spark(8).png).
 
 
+#### - RDD transformations - Others
+    - RDD1.union(RDD2): RDD1 and RDD2의 원소를 합해서 하나의 RDD 반환, 원소 중복
+    - RDD1.distinct(): RDD1의 원소 중 중복된 것을 삭제
+    - RDD1.intersection(RDD2): RDD1 and RDD2에서 공통된 원소 반환
+    - RDD1.subtract(RDD2): RDD1에 있는 원소 중 RDD2의 원소를 삭제한 RDD 반환
+
+
+![Spark Core](https://github.com/daldalhada/bigdata/blob/main/images/spark/spark(9).png).
+
+
 <br><br>
 
 
