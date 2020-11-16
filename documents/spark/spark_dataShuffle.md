@@ -52,6 +52,7 @@
 ![Spark Core](https://github.com/daldalhada/bigdata/blob/main/images/spark/spark(20).png).
 
 
+<br>
 #### - Monte-Carlo 기법
 
 ![Spark Core](https://github.com/daldalhada/bigdata/blob/main/images/spark/spark(21).png).

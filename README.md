@@ -36,5 +36,5 @@
 2. Spark 핵심
 
 	- [RDD](https://github.com/daldalhada/bigdata/blob/main/documents/spark/spark_rdd.md).
-	- [Action](https://github.com/daldalhada/bigdata/blob/main/documents/spark/spark_action.md).
+	- [Action & Partition](https://github.com/daldalhada/bigdata/blob/main/documents/spark/spark_action.md).
     - [Data_Shuffle](https://github.com/daldalhada/bigdata/blob/main/documents/spark/spark_dataShuffle.md).
