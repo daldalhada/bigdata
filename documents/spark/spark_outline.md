@@ -57,7 +57,10 @@
     - 스파크 모듈들(드라이버, Spark Context(SC), Worker nodes, Executor, Cluster manager)
 
 #### - Spark 구성 요소
-    - 드라이버: 스파크 작업을 시작하는 프로세스(Scala Interpreter 동작), 스파크 작업의 시작점, 스파크 관련 병렬 작업을 수행하는 SparkContext 객체 생성
-    - SparkContext(SC): 스파크 코어 관련 기능을 내포하는 객체, 스파크 클러스와 연결 함, 하나의 JVM(드라이버)에 하나의 SC 객체 존재, 스파크 쉘에서 SparkContext는 자동 생성되고 변수명은 "SC"임
+    - 드라이버: 스파크 작업을 시작하는 프로세스(Scala Interpreter 동작), 
+               스파크 작업의 시작점, 스파크 관련 병렬 작업을 수행하는 SparkContext 객체 생성
+    - SparkContext(SC): 스파크 코어 관련 기능을 내포하는 객체, 스파크 클러스와 연결 함, 
+                        하나의 JVM(드라이버)에 하나의 SC 객체 존재, 스파크 쉘에서 SparkContext는 자동 생성되고 변수명은 "SC"임
     - Worker nodes: 스파크 작업을 수행하는 분산기기, 하나의 호스트 기기에 하나의 워커 노드 존재
-    - Executor: 워커 내에서 동시에 실행되는 JVM 프로세스, 하나의 워커에 여러 개의 Executor 존재 가능, RAM을 활용한 중간 데이터 저장 기능, 각각의 Executor는 서로 다른 CPU의 메모리 할당을 받을 수 있음
+    - Executor: 워커 내에서 동시에 실행되는 JVM 프로세스, 하나의 워커에 여러 개의 Executor 존재 가능, 
+                RAM을 활용한 중간 데이터 저장 기능, 각각의 Executor는 서로 다른 CPU의 메모리 할당을 받을 수 있음
