@@ -1,0 +1,6 @@
+val tags = sc.textFile("/dataset/movielens/tags.csv")
+val tagsInfo = tags.map(arr => arr.split(','))                        
+val tagSplit = tagsInfo.map(tag => tag(2))                            
+val tagArray = tagSplit.map(tag => (tag, 1))                          
+val tagCounter = tagArray.reduceByKey((x,y) => (x+y))                
+tagCounter.takeOrdered(1)(Ordering[Int].reverse.on(x=>x._2))       

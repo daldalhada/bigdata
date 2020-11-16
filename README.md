@@ -31,4 +31,4 @@
 
 1. Spark 플랫폼이 등장한 이유
 
-	[Scala 언어 학습](https://github.com/daldalhada/bigdata/blob/main/list/spark/spark.md).
+	[Spark 플랫폼](https://github.com/daldalhada/bigdata/blob/main/list/spark/spark.md).

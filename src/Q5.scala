@@ -1,0 +1,5 @@
+val ratings = sc.textFile("/dataset/movielens/ratings.csv")
+val ratingInfo = ratings.map(a => a.split(','))                     
+val pairs = ratingInfo.map(x => if(x(2)=="rating") (-1, -1.0) else (x(1), x(2).toDouble))
+val groupPairs = pairs.groupBy(_._1).mapValues(_.map(_._2).reduce(_ + _)) 
+groupPairs.takeOrdered(100)(Ordering[Double].reverse.on(x=>x._2))

@@ -1,0 +1,5 @@
+val movies = sc.textFile("/dataset/movielens/movies.csv")
+val movieInfo = movies.map(movie => movie.split(','))                 
+val title = movieInfo.map(mi => mi(1))                                
+val uniqueTitle = title.distinct()                                   
+uniqueTitle.takeSample(true, 10)  

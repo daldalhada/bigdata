@@ -1,0 +1,7 @@
+val movies = sc.textFile("/dataset/movielens/movies.csv")
+val movieInfo = movies.map(movie => movie.split(','))                 
+val genres = movieInfo.flatMap(mi => mi(2).split('|'))               
+val genreOne = genres.map(g => (g, 1))                                
+val genreCounter = genreOne.reduceByKey((x,y) => (x+y))               
+val actionMovie = genreCounter.filter(m => m._1.contains("Action"))   
+actionMovie.collect()

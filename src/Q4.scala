@@ -1,0 +1,6 @@
+val ratings = sc.textFile("/dataset/movielens/ratings.csv")
+val ratingInfo = ratings.map(a => a.split(','))
+val ratingArray = ratingInfo.map(tag => if(tag(2)=="rating") 0 else tag(2).toDouble)
+val ratingCount = ratingArray.count()                                      
+val ratingSum = ratingArray.reduce((a, b) => a+b)
+val average = ratingSum/(ratingCount-1)
