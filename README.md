@@ -29,6 +29,12 @@
 
 ## Spark 플랫폼
 
-1. Spark 플랫폼이 등장한 이유
+1. Spark 개요
 
-	[Spark 플랫폼](https://github.com/daldalhada/bigdata/blob/main/documents/spark/spark.md).
+	[Spark 플랫폼](https://github.com/daldalhada/bigdata/blob/main/documents/spark/spark_outline.md).
+
+2. Spark 핵심
+
+	- [RDD](https://github.com/daldalhada/bigdata/blob/main/documents/spark/spark_rdd.md).
+	- [Action](https://github.com/daldalhada/bigdata/blob/main/documents/spark/spark_action.md).
+    - [Data_Shuffle](https://github.com/daldalhada/bigdata/blob/main/documents/spark/spark_dataShuffle.md).
